@@ -1,0 +1,170 @@
+/* Scroll down */
+
+.scroll-down {
+    position: absolute;
+    right: 2rem;
+    z-index: 10;
+    transition: .4s;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.scroll-down:hover {
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.img-rckt {
+    transition: none 0s ease 0s;
+}
+
+.text-rckt {
+    -webkit-text-stroke: white 2px;
+}
+
+.text-rckt-blue {
+    -webkit-text-stroke: var(--blue-color) 2px;
+}
+
+/* .owl-stage-outer {
+    width: fit-content;
+} */
+
+/* CSS TO LINES BG */
+
+.bg-square-topl {
+    top: 0px;
+    left: 120px;
+    position: absolute;
+}
+
+.bg-nwl {
+    width: 2250px;
+    height: 42.5rem;
+    left: -430px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-l-two {
+    width: 66%;
+    top: 1400px;
+    right: -480px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-l-three {
+    width: 70%;
+    top: 0;
+    left: 975px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-l-four {
+    width: 45%;
+    top: 201rem;
+    left: -250px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 1.5s;
+}
+
+.bg-l-five {
+    /* top: 3600px; */
+    /* left: 15px; */
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-l-six {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-four-center {
+    left: 25% !important;
+    transition: all 1.5s;
+    /* left: 500px; */
+}
+
+.bg-four-end {
+    left: 75% !important;
+    transition: all 1.5s;
+    /* left: 1300px; */
+}
+
+.bg-l-two-a {
+    width: 1320px;
+    top: 50px;
+    right: -750px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.line-important {
+    width: 78.25rem !important;
+}
+
+.scroll-cultvalmis {
+    color: var(--white-color) !important;
+}
+
+.scroll-cultvalmis::selection {
+    color: var(--pink-color) !important;
+}
+
+.scroll-arrow::selection {
+    color: var(--pink-color) !important;
+}
+
+/* Scroll animation with fade in */
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 20vh);
+    transition: all 1.5s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* FadeIn Initial */
+.show-content {
+    animation: fadeInContent 3s;
+}
+
+@keyframes fadeInContent {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+div.owl-item.active {
+    z-index: 10 !important;
+}

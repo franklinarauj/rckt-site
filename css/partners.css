@@ -1,0 +1,47 @@
+/* Scroll animation with fade in */
+.tag {
+    opacity: 0;
+    transform: translate(0, 20vh);
+    transition: all 1.5s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* FadeIn Initial */
+.show-content {
+    animation: fadeInContent 3s;
+}
+
+@keyframes fadeInContent {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Content */
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 0.5;
+    padding: 1rem;
+}
+
+.coll {
+    flex: 0.6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.show-line {
+    display: initial;
+    animation: fadeIn 2s;
+}
+
+.hide-line {
+    display: none;
+    animation: fadeOut 1.5s;
+}

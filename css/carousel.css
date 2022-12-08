@@ -1,0 +1,80 @@
+.p-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s ease-in-out;
+}
+
+[class^="panel_"] {
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+[class^="label_"] {
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+[class^="label_"]:focus {
+    color: var(--pink-color);
+}
+
+[class^="label_"]:checked {
+    color: var(--pink-color);
+}
+
+.selected {
+    color: var(--pink-color);
+}
+
+.selected-text {
+    color: var(--pink-color);
+}
+
+.menu-selected {
+    width: 420px;
+    /* animation: fadeIn 2s; */
+    color: var(--blue-color);
+    border-top: 3px solid var(--blue-color);
+    border-left: 3px solid var(--blue-color);
+    border-bottom: 3px solid var(--blue-color);
+}
+
+.selected-panel {
+    color: var(--blue-color);
+}
+
+.hide {
+    display: none;
+    animation: fadeOut 1.5s;
+}
+
+.show {
+    display: initial;
+    animation: fadeIn 2s;
+}
+
+.show-btn {
+    display: initial;
+}
+
+.show-panel {
+    display: flex;
+    animation: fadeIn 1s;
+}
+
+.hide-panel {
+    display: none;
+    animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    100% { opacity: 1; }
+    0% { opacity: 0; }
+}

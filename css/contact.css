@@ -1,0 +1,50 @@
+/* Scroll animation with fade in */
+.tag {
+    opacity: 0;
+    transform: translate(0, 20vh);
+    transition: all 1.5s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* FadeIn Initial */
+.show-content {
+    animation: fadeInContent 3s;
+}
+
+@keyframes fadeInContent {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Content */
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 1rem;
+}
+
+.nw {
+    left: -15px !important;
+    position: absolute;
+    bottom: -243px !important;
+    z-index: -1;
+    bottom: 0 !important;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.nw-img {
+    width: 100% !important;
+    max-width: 100% !important;
+}

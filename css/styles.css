@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* Setting the entire color palette to be used on the website */
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    --gray-color: hsl(0, 0%, 33%);
+
+    --blue-color: hsl(225, 72%, 50%);
+    --blue-dark-color: hsl(225, 72%, 40%);
+    --blue-light-color: hsl(225, 72%, 60%);
+
+    --pink-color: hsl(330, 100%, 86%);
+    --pink-dark-color: hsl(329, 100%, 76%);
+    --pink-light-color: hsl(330, 100%, 96%);
+
+    --purple-color: hsl(258, 76%, 55%);
+    --purple-dark-color: hsl(258, 76%, 45%);
+    --purple-light-color: hsl(258, 76%, 65%);
+    --purple-opacity-color: hsl(267, 68%, 63%);
+
+    --green-color: hsl(163, 67%, 61%);
+    --green-dark-color: hsl(163, 67%, 51%);
+    --green-light-color: hsl(163, 67%, 71%);
+}
+
+/* Setting global font for website */
+
+*,
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Setting style to scroll bar */
+
+::-webkit-scrollbar {
+    width: .60rem;
+    background-color: var(--white-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--purple-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--purple-dark-color);
+}
+
+/* FadeIn Home */
+.show-menu {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
