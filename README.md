@@ -23,7 +23,7 @@
 - Thiago Coelho (Software Engineer)
 - Jonas Melo (Intern)
 
-## 🔧 Technologies used:
+## 🔧 Technologies used in our projects:
 
 <br>
 <p align="center">
@@ -32,4 +32,12 @@
 </p>
 <br><br>
 
-### Copyright © 2022 Rocketwave LTDA - Todos os direitos reservados.
+## 🖥️ Prototype
+<p>
+  Prototype build in
+  <a href="https://xd.adobe.com/view/464fcbb2-2492-4c97-9669-e10d309de8cc-131c/grid" target="_blank">      
+    AdobeXD
+  </a>
+</p>
+
+### Copyright © 2022 Rocketwave LTDA - All rights reserved.
